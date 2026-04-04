@@ -1,0 +1,350 @@
+// Vines Connection: Melanin Intelligence Course — CORRECTED v2
+// Multi-Tier Spiral Structure | Professor-to-Student Tone
+// Melanin Biology Only — Synthesized from Published Research Papers (Zenodo/CERN 2026)
+// ORCID: 0009-0006-4312-526X
+// Audience: High School Level (Ages 14-18)
+
+export const COURSE_META = {
+  title: "Vines Connection: Melanin Intelligence",
+  subtitle: "The Science of the Melanin System",
+  author: "Vines Connection",
+  acad: "https://vines-connection.vercel.app",
+  tagline: "Your biology is the primary record of your history.",
+  isbn: "979-8-9948544-0-2",
+  lccn: "2026903595",
+  totalLessons: 26,
+  totalModules: 12,
+  totalTiers: 2,
+};
+
+// ── TIER DEFINITIONS ─────────────────────────
+export const TIERS = [
+  { number: 1, name: "The Core", subtitle: "The Big Picture", color: "#d4a017", range: "Modules 1–6" },
+  { number: 2, name: "The Deep Dive", subtitle: "The Individual Blueprints", color: "#8B5CF6", range: "Modules 7–12" },
+];
+
+const module1 = {
+  id: "module-1", number: 1, tier: 1,
+  title: "The Master Switch",
+  subtitle: "Your Body's Control Room",
+  description: "Understanding the single gene that determines your body's entire protection system.",
+  color: "#d4a017", glyph: "◉", part: "Phase I",
+  lessons: [
+    {
+      id: "L1", number: 1, title: "Meet MC1R — The Gene That Runs the Show", subtitle: "The Control Room", duration: "3:30",
+      keyConcepts: ["MC1R gene", "Melanocytes", "Eumelanin vs. Pheomelanin", "The Biological Switch"],
+      content: "Welcome back to your refined journey into Melanin Intelligence. We are starting at the absolute source of your biological architecture. Inside your skin are specialist cells called melanocytes. They are not random—they take direct orders from a single gene: MC1R (Melanocortin-1 Receptor). Think of MC1R as the master switch in your body's control room. When it's 'ON' (functional), you produce Eumelanin—the brown-to-black pigment that has protected human DNA for over 300,000 years. This is the ancestral baseline. When that switch is 'OFF' (loss-of-function), your body defaults to Pheomelanin—the yellow-to-red pigment. But this isn't just about color; it's about the quality of the shield your body builds for every single internal system.",
+      reflection: "If one gene controls your body's entire protection system, what happens when that gene is not working?"
+    },
+    {
+      id: "L2", number: 2, title: "Eumelanin — Your Body's Shield and Battery", subtitle: "More Than Just Color", duration: "3:30",
+      keyConcepts: ["UV Protection", "Free Radical Scavenging", "Broadband Absorption", "Iron and Metal Binding"],
+      content: "Eumelanin is not just 'skin color.' It is a sophisticated biological material. It acts as a solar shield, converting over 99.9% of harmful UV radiation into harmless heat in less than a trillionth of a second. It is a built-in antioxidant cleanup crew, catching free radicals before they can damage your DNA. Most importantly, it is a broadband absorber—it interacts with the entire electromagnetic spectrum. This material has been preserved in life for over 500 million years. Evolution keeps what works. Eumelanin is core human hardware.",
+      reflection: "If eumelanin absorbs light, neutralizes toxins, and controls metals in your body — is it fair to call it 'just a pigment'?"
+    },
+  ],
+};
+
+const module2 = {
+  id: "module-2", number: 2, tier: 1,
+  title: "The Melanin Family",
+  subtitle: "Melanin Is Everywhere",
+  description: "Melanin is a universal biological material found across all life on Earth.",
+  color: "#d4a017", glyph: "⑨", part: "Phase I",
+  lessons: [
+    {
+      id: "L3", number: 3, title: "The Universal Battery", subtitle: "Melanin Across All Life", duration: "3:30",
+      keyConcepts: ["Chernobyl Fungi", "Radiotrophic Fungi", "Chlorophyll as Green Melanin"],
+      content: "Melanin is the oldest and most universal survival molecule on the planet. It's found in bacteria, fungi, plants, and animals. In the ruins of the Chernobyl reactor, fungi are using melanin to convert deadly gamma radiation into chemical fuel. In plants, chlorophyll acts as 'green melanin,' turning light into energy. Melanin is the biological battery of the Earth.",
+      reflection: "If melanin converts radiation into energy in fungi, what is it converting in you?"
+    },
+    {
+      id: "L4", number: 4, title: "Neuromelanin — The Dark Engine in Your Brain", subtitle: "The Pigment That Runs Your Mind", duration: "4:00",
+      keyConcepts: ["Substantia Nigra", "Locus Coeruleus", "Iron Management", "Parkinson's Risk"],
+      content: "You have melanin inside your brain. It's called Neuromelanin, and it's concentrated in the Substantia Nigra ('Black Substance') and the Locus Coeruleus ('Blue Spot'). These areas control your dopamine (motivation) and norepinephrine (focus). Neuromelanin manages the iron in your brainstem, keeping it from becoming toxic. People with MC1R variants have a 2-3x higher risk of Parkinson's because their brain's melanin engine isn't as stable. Melanin runs the engine room of your mind.",
+      reflection: "If the structures that control your motivation and focus are built on melanin, what does melanin have to do with consciousness?"
+    },
+  ],
+};
+
+const module3 = {
+  id: "module-3", number: 3, tier: 1,
+  title: "The Electromagnetic Body",
+  subtitle: "The Circuits Running Inside You",
+  description: "Understanding the electromagnetic system built into your blood, your brain, and your biofield.",
+  color: "#d4a017", glyph: "△", part: "Phase II",
+  lessons: [
+    {
+      id: "L5", number: 5, title: "Your Blood Is Electric", subtitle: "Iron, Magnets, and the Blood Circuit", duration: "4:00",
+      keyConcepts: ["Hemoglobin Oscillation", "Paramagnetic vs Diamagnetic", "Pauling 1936"],
+      content: "In 1936, Linus Pauling proved your blood is magnetic. It switches its magnetic charge with every heartbeat. Oxygenated blood in your arteries is diamagnetic (repels magnets), while deoxygenated blood in your veins is paramagnetic (attracted to magnets). Your heart is pumping a magnetic pulse through your body about once per minute. This is the actual physics of human 'vibration,' and melanin is the regulator that keeps this iron circuit coherent.",
+      reflection: "If every red blood cell is an oscillating electromagnetic unit, what does it mean to 'raise your vibration'?"
+    },
+    {
+      id: "L6", number: 6, title: "The Magnet in Your Brain", subtitle: "Magnetite and the Brainstem Antenna", duration: "3:30",
+      keyConcepts: ["Biogenic Magnetite", "Brainstem Magnets", "Schumann Resonance"],
+      content: "Your brain contains actual magnets—tiny crystals called magnetite. They are concentrated in your brainstem, right where your neuromelanin sits. These magnets may act as an antenna, tuning your nervous system to the Earth's natural frequency (the Schumann resonance). Melanin manages the iron that building these magnets. You are electromagnetically linked to the planet.",
+      reflection: "If your brainstem contains crystals tuned to the Earth, what is your relationship to the planet?"
+    },
+    {
+      id: "L7", number: 7, title: "The Human Biofield", subtitle: "Your Invisible Antenna", duration: "3:30",
+      keyConcepts: ["Biofield measurement", "Heart EM field", "Tryptophan pathway"],
+      content: "Your body generates a measurable electromagnetic field called the biofield. Your heart, brainstem, and gut (where 95% of your serotonin is made) work together as three electromagnetic poles. They are all connected through the tryptophan pathway—the same factory that builds melanin. Your aura isn't magic; it's the measurable output of your biological hardware.",
+      reflection: "If your gut, brainstem, and pineal gland are three poles of one system, what happens when it's disrupted?"
+    },
+  ],
+};
+
+const module4 = {
+  id: "module-4", number: 4, tier: 1,
+  title: "The Chemical Orchestra",
+  subtitle: "How Your Body Talks to Itself",
+  description: "Understanding the chemical messengers that control your habits, emotions, and reality.",
+  color: "#d4a017", glyph: "⊛", part: "Phase II",
+  lessons: [
+    {
+      id: "L8", number: 8, title: "POMC — The Mother Molecule", subtitle: "One Protein, Many Messages", duration: "3:30",
+      keyConcepts: ["POMC", "Alpha-MSH", "Beta-Endorphin"],
+      content: "POMC is the 'Mother Molecule.' Your body chops this one protein into several keys. One key (Alpha-MSH) turns on your melanin. Another key (Beta-endorphin) is your body's natural painkiller. A third key (ACTH) controls your stress. This means your melanin production, your pleasure, and your stress response are all siblings from the same source. They aren't separate systems.",
+      reflection: "If the molecule that makes your melanin also makes your painkillers, how deep does the system go?"
+    },
+    {
+      id: "L9", number: 9, title: "The Peptide Cage", subtitle: "Your Cells Are Addicted to Your Past", duration: "4:00",
+      keyConcepts: ["Neuropeptides", "Cellular Addiction", "Peptide Entrainment"],
+      content: "Every time you feel an emotion, your brain releases chemicals called neuropeptides. If you feel the same emotion repeatedly, your cells build more receptors for that chemical. Over time, your cells become addicted to that feeling. This is 'peptide entrainment.' Breaking a habit isn't just 'willpower'—it's remodeling your cellular architecture from the ground up.",
+      reflection: "If your cells are addicted to past emotions, who is really in control?"
+    },
+    {
+      id: "L10", number: 10, title: "The RAS — Your Brain's Reality Filter", subtitle: "Why You See What You Expect to See", duration: "3:30",
+      keyConcepts: ["Reticular Activating System", "Reality Filtering", "Brainstem Gatekeeper"],
+      content: "The RAS is a filter in your brainstem that decides what information reaches your conscious mind. It filters reality based on your current chemical environment. If your body is entrained to stress, your RAS will only highlight things that make you stressed. To change what you see, you have to change your biology. The filter lives right next to your brain's melanin.",
+      reflection: "What might your RAS be filtering out right now because it doesn't match your programming?"
+    },
+  ],
+};
+
+const module5 = {
+  id: "module-5", number: 5, tier: 1,
+  title: "Melanin in Every System",
+  subtitle: "The Full Body Map",
+  description: "Tracing melanin through every major organ system.",
+  color: "#d4a017", glyph: "⚙", part: "Phase III",
+  lessons: [
+    {
+      id: "L11", number: 11, title: "Beyond Skin — Melanin Is Everywhere", subtitle: "The Organ-by-Organ Map", duration: "5:00",
+      keyConcepts: ["Inner Ear Melanin", "Bone Melanin", "Cardiac Melanin"],
+      content: "Melanin is not just in your skin. It's in your inner ear (essential for hearing), your heart valves, your brain covering, and even your bones. In fact, white cats and dalmatians are often born deaf because they lack the melanin cells required for their ears to detect sound. Melanin is the structural infrastructure of your entire body.",
+      reflection: "If melanin is in your ears, heart, and brain—is it still 'just a pigment'?"
+    },
+    {
+      id: "L12", number: 12, title: "The Blood Factory", subtitle: "Why Melanocytes Decide Where Blood Is Made", duration: "3:30",
+      keyConcepts: ["Hematopoietic Niche", "Blood Stem Cells", "UV Protection"],
+      content: "Harvard researchers found that blood stem cells migrated deep inside your bones specifically because melanocytes there provided a radiation-proof shield. Without melanin to protect the 'blood factory,' your blood cells would die from UV exposure. Melanin built the shelter where your life-force is manufactured.",
+      reflection: "If melanocytes built the shelter for your blood, how central is melanin to your circulation?"
+    },
+  ],
+};
+
+const module6 = {
+  id: "module-6", number: 6, tier: 1,
+  title: "Source Coherence",
+  subtitle: "Putting It All Together",
+  description: "Synthesizing the full melanin map into one coherent picture.",
+  color: "#d4a017", glyph: "✧", part: "Phase III",
+  lessons: [
+    {
+      id: "L13", number: 13, title: "The Eumelanin Standard", subtitle: "Establishing the Baseline", duration: "4:00",
+      keyConcepts: ["Ancestral Baseline", "Haplogroup A00", "The Spectrum Model"],
+      content: "Eumelanin is the ancestral baseline of the human species. For 300,000 years, it has been the standard configuration for human protection. All variations are simply different ratios on a single spectrum. There are no 'races'—only a gradient of MC1R functionality. We are one species with one biological standard.",
+      reflection: "If eumelanin has been the human standard for 338,000 years, what does that tell you about yourself?"
+    },
+    {
+      id: "L14", number: 14, title: "Recursive Recovery", subtitle: "Preparing for the Deep Dive", duration: "4:00",
+      keyConcepts: ["Source Coherence", "Tier 1 Synthesis", "The Spiral"],
+      content: "You've finished the map. You know MC1R is the switch, Melanin is the shield, Blood is the circuit, and the Brainstem is the antenna. In Tier 2, we go back through each of these at full depth. The first pass showed you the map; the second pass shows you the terrain.",
+      reflection: "What questions do you want to go deeper on?"
+    },
+  ],
+};
+
+// TIER 2 — THE DEEP DIVE
+const module7 = {
+  id: "module-7", number: 7, tier: 2,
+  title: "Eumelanin — The Full Blueprint",
+  subtitle: "The Molecular Architecture",
+  description: "The complete biochemistry of eumelanin.",
+  color: "#8B5CF6", glyph: "◉", part: "Deep Dive I",
+  lessons: [
+    {
+      id: "L15", number: 15, title: "How Eumelanin Is Built", subtitle: "The Molecular Machine", duration: "4:30",
+      keyConcepts: ["Tyrosinase", "Dopaquinone", "MITF Cascade"],
+      content: "In Tier 2, we go inside the machinery. Eumelanin starts with Tyrosine being oxidized by the enzyme Tyrosinase. This process requires copper. Then, a master regulator called MITF turns on the polymer stacking process called 'pi-pi stacking.' This precise stacking is what allows melanin to absorb 99.9% of the sun's energy. It's a high-precision manufacturing process happening inside every cell.",
+      reflection: "If the assembly line is this precise, how important is the final product?"
+    },
+    {
+      id: "L16", number: 16, title: "Eumelanin the Semiconductor", subtitle: "Electricity in Your Skin", duration: "4:00",
+      keyConcepts: ["Semiconductor", "Proton-Electronic conduction", "Hydration"],
+      content: "Eumelanin is a biological semiconductor. It doesn't just block light; it conducts electricity. It can move both electrons and protons. Uniquely, its conductivity gets stronger when it's wet. You are carrying a biological circuit board that responds to hydration and light in real-time.",
+      reflection: "What else might a biological semiconductor be doing that we haven't measured yet?"
+    },
+  ],
+};
+
+const module8 = {
+  id: "module-8", number: 8, tier: 2,
+  title: "Neuromelanin — The Brain's Dark Architecture",
+  subtitle: "Inside the Engine Room",
+  description: "The neuroscience of neuromelanin in detail.",
+  color: "#8B5CF6", glyph: "⑨", part: "Deep Dive II",
+  lessons: [
+    {
+      id: "L17", number: 17, title: "How Neuromelanin Is Made", subtitle: "A Different Pathway", duration: "4:00",
+      keyConcepts: ["Dopamine Oxidation", "Lipid Component", "Accumulation"],
+      content: "Brain melanin (Neuromelanin) is made differently than skin melanin. It's built from the leftovers of your dopamine and norepinephrine. It accumulates over your entire lifetime, storing metals and fats to keep your neurons safe. If you don't build it properly, your brain engine wears out faster.",
+      reflection: "How does your brain manage its own cleanup through melanin?"
+    },
+    {
+      id: "L18", number: 18, title: "The Iron-Magnetite Cascade", subtitle: "From Melanin to Magnet", duration: "4:30",
+      keyConcepts: ["Fenton Reaction", "Magnetite nanocrystals", "Vulnerability"],
+      content: "Neuromelanin manages the iron pool in your brainstem. From this same iron pool, your body builds magnetite crystals—actual magnets. If your melanin is unstable (pheomelanin), it dumps iron into the brain instead of holding it. This starts the 'Fenton reaction' which destroys brain cells. Coherence depends on keeping your iron locked down.",
+      reflection: "What happens to your brain's 'antenna' when your melanin system is compromised?"
+    },
+  ],
+};
+
+const module9 = {
+  id: "module-9", number: 9, tier: 2,
+  title: "Serotonin — The Gut-Brain-Melanin Circuit",
+  subtitle: "The Chemical That Connects Everything",
+  description: "The full serotonin story.",
+  color: "#8B5CF6", glyph: "△", part: "Deep Dive III",
+  lessons: [
+    {
+      id: "L19", number: 19, title: "The Tryptophan Pathway", subtitle: "One Amino Acid, Three Destinations", duration: "4:00",
+      keyConcepts: ["Tryptophan", "Serotonin Branch", "Melatonin"],
+      content: "Serotonin, Melatonin, and Melanin are parts of one family. They all start with an amino acid called Tryptophan. When you are stressed, your body steals tryptophan for the 'stress pathway,' leaving nothing left to build your melanin or your sleep hormones. Stress literally starves your melanin system.",
+      reflection: "What is chronic stress actually doing to your biological factory?"
+    },
+    {
+      id: "L20", number: 20, title: "Serotonin and Your Melanocytes", subtitle: "The Brain-Skin Connection", duration: "4:30",
+      keyConcepts: ["5-HT2A Receptor", "Neural Crest Ectoderm", "Stress Depigmentation"],
+      content: "Your melanin cells are basically 'brain cells in the skin.' They have 6 different serotonin receptors. When you are happy and your serotonin is high, it literally signals your skin to produce more melanin. Your skin is a physical readout of your internal neurochemistry.",
+      reflection: "What is the real cost of chronic stress to your appearance and protection?"
+    },
+  ],
+};
+
+const module10 = {
+  id: "module-10", number: 10, tier: 2,
+  title: "Melatonin — The Pineal Signal",
+  subtitle: "Your Body's Clock and Light Processor",
+  description: "Synchronizing with the planet.",
+  color: "#8B5CF6", glyph: "⊛", part: "Deep Dive IV",
+  lessons: [
+    {
+      id: "L21", number: 21, title: "How Melatonin Is Made", subtitle: "From Serotonin to Sleep Signal", duration: "3:30",
+      keyConcepts: ["Pineal Gland", "AANAT Enzyme", "Night-phase Melanin"],
+      content: "Melatonin is 'night-phase melanin.' It's built in the pineal gland when the lights go out. It's the most powerful antioxidant in your body, and it's built from the same material as your melanin. If you don't sleep in total darkness, you halt the production of this vital biological repair kit.",
+      reflection: "What does a disrupted sleep cycle indicate about your whole melanin system?"
+    },
+    {
+      id: "L22", number: 22, title: "The Circadian Architecture", subtitle: "Your Body's Relationship to Light", duration: "4:00",
+      keyConcepts: ["Blue Light Disruption", "Pineal Calcification", "Entrainment"],
+      content: "Your body runs a 24-hour electromagnetic pulse. Blue light from phones at night tricks your pineal gland into thinking it's daytime, shutting down your melatonin. You are an organism tuned to the rotation of the Earth. Protecting your light cycles is protecting your biology.",
+      reflection: "What does constant screen exposure at night cost your biological repair system?"
+    },
+  ],
+};
+
+const module11 = {
+  id: "module-11", number: 11, tier: 2,
+  title: "The Blood Circuit",
+  subtitle: "Iron, Frequency, and the Electromagnetic Architecture",
+  description: "The technical blueprint of your blood.",
+  color: "#8B5CF6", glyph: "⚙", part: "Deep Dive V",
+  lessons: [
+    {
+      id: "L23", number: 23, title: "Pauling's Discovery — The Magnetic Blood", subtitle: "Physics of Your Circulation", duration: "4:30",
+      keyConcepts: ["Paramagnetic vs Diamagnetic", "Pauling 1936", "MRI Physics"],
+      content: "In 1936, Linus Pauling mapped the magnetic states of blood. We still use this discovery today for fMRI scans. Oxygen-rich blood is repelled by magnets; oxygen-poor blood is attracted. Your veins and arteries are literally switching magnetic states with every pulse. You are a living, breathing electromagnetic oscillator.",
+      reflection: "If MRI technology is based on magnetic blood, why isn't this taught in basic biology?"
+    },
+    {
+      id: "L24", number: 24, title: "The Melanin-Iron Regulatory System", subtitle: "Coherence vs. Chaos", duration: "4:00",
+      keyConcepts: ["Chelation", "Iron Coherence", "Gene-to-Field Chain"],
+      content: "Melanin regulates iron. Eumelanin keeps iron locked in a stable state, allowing for coherent electromagnetic oscillation (vibration). Pheomelanin is unstable and causes electromagnetic chaos. The chain starts with your MC1R gene and ends with your body's energy field.",
+      reflection: "If melanin keeps your body's energy coherent, what does 'coherence' mean to you now?"
+    },
+  ],
+};
+
+const module12 = {
+  id: "module-12", number: 12, tier: 2,
+  title: "POMC and the Peptide Architecture",
+  subtitle: "Connecting Biology to Behavior",
+  description: "The master control system finalized.",
+  color: "#8B5CF6", glyph: "✧", part: "Deep Dive VI",
+  lessons: [
+    {
+      id: "L25", number: 25, title: "POMC — The Complete Map", subtitle: "Every Key from the Mother Molecule", duration: "4:30",
+      keyConcepts: ["MC4R", "Sexual Arousal", "Pain Management"],
+      content: "POMC produces Alpha-MSH (melanin) and Beta-endorphin (pleasure). It also binds to MC4R, which controls sexual arousal. This means your melanin activation is chemically linked to your ability to feel pleasure and pain relief. It's one master system connecting your biology to your most basic behaviors.",
+      reflection: "Are your protection, pleasure, and arousal really separate systems?"
+    },
+    {
+      id: "L26", number: 26, title: "The Entrainment Cycle — Rewriting Your Programming", subtitle: "From Understanding to Application", duration: "5:00",
+      keyConcepts: ["RAS retuning", "Rewriting chemistry", "Source Coherence"],
+      content: "This is the end of the spiral. You've seen the map; now you must occupy the terrain. To change your life, you must change your biology first. Get sunlight, manage stress, feed the tryptophan pathway, and protect your darkness. Clear the interference and let your ancestral system run the way it was designed to. You are Coherent. The recovery is complete.",
+      reflection: "What will you build with your own biological coherence?"
+    },
+  ],
+};
+
+export const modules = [module1, module2, module3, module4, module5, module6, module7, module8, module9, module10, module11, module12];
+
+// HELPER FUNCTIONS
+export function getAllChapters() {
+  return modules.flatMap(mod => mod.lessons.map(lesson => ({
+    ...lesson,
+    moduleId: mod.id,
+    moduleTitle: mod.title,
+    color: mod.color,
+    tier: mod.tier
+  })));
+}
+
+export function getLessonById(lessonId) {
+  return modules.flatMap((mod) => mod.lessons).find((l) => l.id === lessonId) || null;
+}
+
+export function getModuleByLessonId(lessonId) {
+  return modules.find((mod) => mod.lessons.some((l) => l.id === lessonId)) || null;
+}
+
+export function getNextLesson(currentId) {
+  const all = modules.flatMap((mod) => mod.lessons);
+  const idx = all.findIndex((l) => l.id === currentId);
+  return idx !== -1 && idx < all.length - 1 ? all[idx + 1] : null;
+}
+
+export function getPrevLesson(currentId) {
+  const all = modules.flatMap((mod) => mod.lessons);
+  const idx = all.findIndex((l) => l.id === currentId);
+  return idx > 0 ? all[idx - 1] : null;
+}
+
+export function getModuleById(moduleId) {
+  return modules.find((m) => m.id === moduleId) || null;
+}
+
+export function getModulesByTier(tierNumber) {
+  return modules.filter((m) => m.tier === tierNumber);
+}
+
+export function getTotalLessons() {
+  return modules.reduce((acc, mod) => acc + mod.lessons.length, 0);
+}
+
+export function getTotalLessonsByTier(tierNumber) {
+  return modules.filter(m => m.tier === tierNumber).reduce((acc, mod) => acc + mod.lessons.length, 0);
+}
