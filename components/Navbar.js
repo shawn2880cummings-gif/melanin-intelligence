@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: '/course', label: 'Course' },
   { href: '/cre-tool', label: 'CRE Tool' },
   { href: '/research', label: 'Research' },
+  { href: 'https://vines-connection.vercel.app', label: 'Main Site' },
 ];
 
 export default function Navbar() {
